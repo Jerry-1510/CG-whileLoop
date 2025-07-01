@@ -5,3 +5,10 @@ while (num != -1) {
   num = +prompt("Enter a number: ");
 }
 alert(total);
+
+let html = "";
+let i = 1;
+while (i <= 100) {
+  document.writeln((html = `<hr width="${i}/>`));
+  i++;
+}
